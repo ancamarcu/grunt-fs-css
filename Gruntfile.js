@@ -1,8 +1,5 @@
 /*
- * grunt-fscss
- * https://github.com/SebastianM/grunt-fscss
- *
- * Copyright (c) 2013 Sebastian Müller
+ * Copyright (c) 2022 Anonymous
  * Licensed under the MIT license.
  */
 
@@ -71,14 +68,6 @@ module.exports = function(grunt) {
     // Unit tests.
     nodeunit: {
       tests: ['test/*_test.js'],
-    },
-
-    changelog: {
-      options: {
-        dest: 'CHANGELOG.md',
-        github: 'https://github.com/SebastianM/grunt-fscss',
-        editor: 'sublime -w'
-      }
     }
   });
 

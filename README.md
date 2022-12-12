@@ -1,22 +1,22 @@
-# grunt-fscss [![Build Status](https://secure.travis-ci.org/SebastianM/grunt-fscss.png?branch=master)](http://travis-ci.org/SebastianM/grunt-fscss)
+# grunt-fs-css
 
 > Replaces media references in CSS files with valid FirstSpirit $CMS_REF(media:"")$ function calls.
 
-[![NPM](https://nodei.co/npm/grunt-fscss.png?downloads=true)](https://nodei.co/npm/grunt-fscss/)
+[![NPM](https://nodei.co/npm/grunt-fs-css.png?downloads=true)](https://nodei.co/npm/grunt-fs-css/)
 
 ## Getting Started
-This plugin requires Grunt `~0.4.5`
+This plugin requires Grunt `~1.5.3`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-fscss --save-dev
+npm install grunt-fs-css --save-dev
 ```
 
 One the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-fscss');
+grunt.loadNpmTasks('grunt-fs-css');
 ```
 
 ## The "fscss" task
@@ -186,9 +186,3 @@ gets replaced with:
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-## Changelog
-See [CHANGELOG.md](CHANGELOG.md)
-
-
-
-[![Analytics](https://ga-beacon.appspot.com/UA-46864714-1/sebastianm/grunt-fscss)](https://github.com/igrigorik/ga-beacon)

@@ -1,29 +1,13 @@
 {
   "name": "grunt-fscss",
   "description": "Replaces media references in CSS files with valid FirstSpirit $CMS_REF(media:\"\")$ function calls.",
-  "version": "0.5.2",
-  "homepage": "https://github.com/SebastianM/grunt-fscss",
+  "version": "2.0.0",
   "author": {
-    "name": "Sebastian Müller",
-    "email": "info@sebastian-mueller.net",
-    "url": "http://www.sebastian-mueller.net"
+    "name": "Anonymous"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SebastianM/grunt-fscss.git"
-  },
-  "bugs": {
-    "url": "https://github.com/SebastianM/grunt-fscss/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/SebastianM/grunt-fscss/blob/master/LICENSE-MIT"
-    }
-  ],
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 18.12.1"
   },
   "scripts": {
     "test": "grunt test"
@@ -33,7 +17,7 @@
     "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-jshint": "^3.2.0",
     "grunt-contrib-nodeunit": "^4.0.0",
-    "grunt-conventional-changelog": "^5.0.0"
+    "grunt-conventional-changelog": "^6.1.0"
   },
   "peerDependencies": {
     "grunt": "^1.5.3"
