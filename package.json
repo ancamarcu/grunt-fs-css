@@ -1,13 +1,29 @@
 {
-  "name": "grunt-fscss",
+  "name": "grunt-fs-css",
   "description": "Replaces media references in CSS files with valid FirstSpirit $CMS_REF(media:\"\")$ function calls.",
   "version": "2.0.0",
   "author": {
     "name": "Anonymous"
   },
+  "publishConfig": {
+    "registry": "https://github.com/ancamarcu/grunt-fs-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ancamarcu/grunt-fs-css"
+  },
+  "bugs": {
+    "url": "https://github.com/ancamarcu/grunt-fs-css/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ancamarcu/grunt-fs-css/blob/main/LICENSE-MIT"
+    }
+  ],
   "main": "Gruntfile.js",
   "engines": {
-    "node": ">= 18.12.1"
+    "node": ">= 0.10.0"
   },
   "scripts": {
     "test": "grunt test"
